@@ -1,0 +1,20 @@
+$Id: INSTALL 46 2008-10-13 06:13:53Z dot $
+
+apctl : alsaplayer controll command set.
+
+1. required libraries
+
+    apctl required libalsaplayer(alsaplayer development libraries).
+    so, install libalsaplayer before make apctl.
+
+    If debian user, execute following command for install libalsaplayer.
+
+        # aptitude install libalsaplayer-dev
+
+2. make
+
+    # make
+
+3. install
+
+    # make install
